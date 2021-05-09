@@ -1,4 +1,4 @@
-# Regulated-IRE1--dependent-decay--RIDD--mediated-reprograming-of-lipid-metabolism-in-cancer
+# Regulated IRE1-dependent decay (RIDD) mediated reprograming of lipid metabolism in cancer
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -28,7 +28,13 @@ Here's why:
 <!-- DATA -->
 ## Data
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The following datasets are included in the repository:
+
+*
+
+*
+
+*
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
