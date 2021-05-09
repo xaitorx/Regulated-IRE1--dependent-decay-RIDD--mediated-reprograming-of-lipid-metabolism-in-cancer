@@ -16,7 +16,7 @@ Here's why:
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#usage">Data</a></li>
+    <li><a href="#Data">Data</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -26,7 +26,7 @@ Here's why:
 </details>
 
 <!-- DATA -->
-## Usage
+## Data
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
