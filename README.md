@@ -1,77 +1,72 @@
-# Regulated IRE1-dependent decay (RIDD) mediated reprograming of lipid metabolism in cancer
+# Regulated IRE1α-dependent decay (RIDD) mediated reprograming of lipid metabolism in cancer
+
+This repository contains materials and methods for the paper "Regulated IRE1α-dependent decay (RIDD)-mediated reprograming of lipid metabolism in cancer" by Almanza*, Mnich* et al., (2021). All data supporting the findings of this study are available in this repository.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+In this study, we employed unbiased lipidomic and transcriptomic approaches to investigate the contribution of IRE1α signalling to lipid metabolism in TNBC. This system biology framework enables the systematic exploration of regulation of metabolic pathways by IRE1α and represents a novel resource for the study of non-canonical IRE1α functions.
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#Scripts">Scripts</a></li>
     <li><a href="#Data">Data</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#Figures">Figures</a></li>
+    <li><a href="#Tables">Tables</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
+<!-- SCRIPTS -->
+## Scripts
+
+* edgeR_final.R: : performs the differential gene expression (DEG) analysis of the transcriptomic data in the paper. It generates Fig.2b,c & S3b,c,d,e figures
+
+* Metasyx_final.R : performs analysis of Metasyx metabolomics data. It generates Figure 1a-m, Figure S1b-i 
+
+* Beatson_final.R : performs analysis of Beatson lipidomics TAG data. It generates Figure 4a-d
+
 
 <!-- DATA -->
 ## Data
 
-The following datasets are included in the repository:
+The following datasets and files are included in the repository:
 
-*
+* Metasyx_MD.txt contains metabolomics measurement day normalized intensities of detected features (annotated and non-annotated). 30 samples that were exposed to the  IRE1α inhibitor or DMSO. Samples were collected at 24, 48 and 72h after the treatment. Five replicates were measured per each condition.
 
-*
+* Metasyx_Sample_Info.txt contains information about group structure and measurement order.
 
-*
+* raw_counts.txt Raw RNAseq counts from featureCounts. 12 samples that were exposed to the IRE1α inhibitor (MKC8866) or DMSO. Samples were collected at 8 and 24h after the treatment. Three replicates measured per each condition.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* sample_info.txt contains sample information for the RNAseq experiment.
 
+* Beatson_MS.txt contains lipidomics measurements. 12 samples divided into 4 biological groups: DMSO, MKC8866, PF-06424439 (DGAT2 inhibitor) and MKC8866 + PF-06424439 cotreatment. Samples were collected 72h after the treatment. Three replicates per each condition.
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+* Beatson_sample_info.txt contains sample information for the Beatson lipidomics experiment
 
 
+<!-- FIGURES -->
+## Figures
 
-<!-- CONTRIBUTING -->
-## Contributing
+The scripts and data in this repository can generate the following figures from the main text and supplement:
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* Main text: Figure 1a-m, Figure 2b-c, Figure 4a-d
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+* Supplementary information: Figure S1b-i, Figure S2a-c, Figure S3 b-e
 
 
+<!-- TABLES -->
+## Tables
 
-<!-- LICENSE -->
-## License
+* Differential Gene Expression analysis. For both time points 8 and 24 hours.
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
+* Functional analysis results: with Bioinfominer, GO BP colection. For both time points 8 and 24 hours.
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 
